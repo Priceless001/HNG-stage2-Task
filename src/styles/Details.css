@@ -43,10 +43,21 @@ button.fav {
   padding: 5px 5px;
   background-color: #be123c;
   border-radius: 20px;
+  margin-top: 50px;
 }
 button.fav:hover {
   background-color: transparent;
   border: 1px solid #be123c;
   color: #be123c;
   border-radius: 20px;
+}
+@media screen and (max-width:600px) {
+    .page-2-poster img {
+        width: 500px;
+        height: 249px;
+} 
+.review {
+    width: 298px;
+  
+}
 }

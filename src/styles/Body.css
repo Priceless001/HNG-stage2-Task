@@ -12,12 +12,9 @@ h2.title{
 }
 .grid {
   display: grid;
-  /* max-width: 1032px; */
   justify-content: center;
-  /* align-items: center; */
   grid-template-columns:180px 180px 180px 180px 180px;
   gap: 80px;
-  /* grid-template-rows: 250px; */
   margin-top: 44px;
   margin-right: 20px;
 }

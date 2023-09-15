@@ -10,11 +10,13 @@ import image14 from "../images/Rectangle 29.png";
 import Details from "./Details";
 import { useParams } from "react-router";
 import axios from "axios";
+import Alert from "./Alert";
 
 const Sidebar = (props) => {
   const { id } = useParams();
-  const key = `https://api.themoviedb.org/3/movie/${id}?api_key=6758311a6817aa5bb17dd3da21ba9fa4`;
+  const key = `https://api.themoviedb.org/3/movie/${id}?api_key=6758311a6817aa5bb17dd3da21ba9fa`;
   const [movies, setMovies] = useState([]);
+  const [errorMessage, setError] = useState("");
 
   const getApi = async () => {
     try {
@@ -27,8 +29,7 @@ const Sidebar = (props) => {
       setMovies(singleMovie);
     } catch (error) {
       console.log(error);
-      alert(error)
-
+      setError(error.message);
     }
   };
   useEffect(() => {
@@ -73,22 +74,11 @@ const Sidebar = (props) => {
           <a href="log">Logout</a>
         </div>
       </div>
-      {<div className="details">{<Details data={movies} />}</div>}
-      {/* <div className="poster" data-testid="movie-poster">
-        <img
-          src={`https://image.tmdb.org/t/p/w500/${movies.poster_path}`}
-          alt={movies.title}
-        />
-      </div>
-      <div className="name" data-testid="movie-title">
-        {movies.original_title}
-      </div>
-      <div className="date" data-testid="movie-release-date">
-        {movies.release_date}
-      </div>
-      <div className="review" data-testid="movie-overview">
-        {movies.overview}
-      </div> */}
+      {errorMessage == "" ? (
+        <div className="details">{<Details data={movies} />}</div>
+      ) : (
+        <Alert />
+      )}
     </div>
   );
 };
