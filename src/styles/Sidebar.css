@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.header-container{
+    display: block;
+    gap: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 226px;
+    height: 982px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    border-radius: 0px 45px 45px 0px;
+    padding: 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.location{
+    display: flex;
+    margin-top: 52px;
+    gap: 24px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+ a{
+  text-decoration: none;
+  text-decoration-line: none; 
+  color: black; 
+  width: 61px;
+  height: 30px;
+  color: #666;
+  font-size: 20px;
+  font-weight: 600;
+}
+.text a{
+    width: 72px;
+    height: 30px;
+}
+.property{
+    margin-top: 65px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+    /* width: 226px; */
+a:hover{
+    color: #BE123C;
+}
+
+.box{
+    width: 170px;
+    height: 210px;
+    border: 1px solid rgba(190, 18, 60, 0.70);
+    background: rgba(248, 231, 235, 0.40);
+    border-radius: 20px;
+    padding-top: 42px;
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-top: 65px;
+}
+p.promo{
+    width: 137px;
+    height: 69px;
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 15px;
+    font-weight: 600;
+}
+p.update{
+    width: 137px;
+    height: 36px;
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 12px;
+    font-weight: 500;
+}
+button.instruct{
+    width: 112px;
+    height: 30px;
+    background: rgba(190, 18, 60, 0.20);
+    border-radius: 30px;
+    color: #BE123C;
+    font-weight: 500;
+    font-size: 12px;
+    /* padding: 6px 17px; */
+}
+.logout{
+    margin-top: 60px;
+    display: flex;
+}

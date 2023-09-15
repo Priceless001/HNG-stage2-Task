@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding: 20px;
+}
+.movie-loggo {
+  display: flex;
+  gap: 24px;
+}
+.movie-box {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 525px;
+  padding: 6px 10px;
+  border: 2px solid var(--gray-300, #d1d5db);
+  border-radius: 0.6rem;
+  /* height: 5rem; */
+}
+input {
+  background-color: transparent;
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+.sign-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+.sign-in {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #be123c;
+}
+.movie-details {
+  margin-top: 108px;
+  margin-left: 98px;
+  height: 400px;
+  /* display: inline-flex; */
+  flex-direction: column;
+  /* float: left; */
+}
+.details {
+  display: flex;
+  gap: 34px;
+  margin: 16px;
+  align-items: left;
+}
+.detail-1 {
+  display: flex;
+  gap: 5px;
+}
+.detail-2 {
+  display: flex;
+  gap: 5px;
+}
+.percentage {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+p.movie-name {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 404px;
+  height: 112px;
+  text-align: left;
+}
+.preview {
+  width: 302px;
+  text-align: left;
+  margin-top: 16px;
+  color: #fff;
+  font-style: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: var(--white, #fff);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.trailer {
+  display: flex;
+  gap: 8px;
+  width: 169px;
+  height: 36px;
+  border-radius: 6px;
+  background: var(--rose-700, #be123c);
+  padding: 7px;
+  margin-top: 16px;
+}
+.container {
+  background-image: url("../images/bg\ poster.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: green; */
+}
