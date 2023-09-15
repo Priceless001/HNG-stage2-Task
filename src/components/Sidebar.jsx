@@ -14,7 +14,7 @@ import Alert from "./Alert";
 
 const Sidebar = (props) => {
   const { id } = useParams();
-  const key = `https://api.themoviedb.org/3/movie/${id}?api_key=6758311a6817aa5bb17dd3da21ba9fa`;
+  const key = `https://api.themoviedb.org/3/movie/${id}?api_key=6758311a6817aa5bb17dd3da21ba9fa4git`;
   const [movies, setMovies] = useState([]);
   const [errorMessage, setError] = useState("");
 
