@@ -27,6 +27,8 @@ const Sidebar = (props) => {
       setMovies(singleMovie);
     } catch (error) {
       console.log(error);
+      alert(error)
+
     }
   };
   useEffect(() => {
