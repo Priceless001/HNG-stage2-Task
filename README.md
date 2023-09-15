@@ -28,11 +28,8 @@
     <a href="https://github.com/Priceless001/HNG-stage2-Task/tree/master"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Hestia-Arc/movie_discovery_app_hngx">View Demo</a>
     ·
-    <a href="https://github.com/Hestia-Arc/movie_discovery_app_hngx/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Hestia-Arc/movie_discovery_app_hngx/issues">Request Feature</a>
   </p>
 </div>
 
