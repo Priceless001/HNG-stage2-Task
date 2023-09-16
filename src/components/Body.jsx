@@ -57,7 +57,7 @@ const Body = () => {
     return (
       <div className="cards">
         <NavLink
-          to={`/about/${movie.id}`}
+          to={`/movies/${movie.id}`}
           data-testid="movie-card"
           key={movie.id}
         >
