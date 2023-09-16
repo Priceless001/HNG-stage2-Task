@@ -20,7 +20,7 @@ const Details = (props) => {
             {props.data.original_title}
           </div>
           <div className="date" data-testid="movie-release-date">
-            {utcDate.toUTCString()};
+            {props.data.release_date}
           </div>
           <div
             className="runtime"
