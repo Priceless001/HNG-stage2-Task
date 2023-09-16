@@ -25,7 +25,7 @@
   <p align="center">
     A movie discovery application, where user can see the top rated movies, see details about each one and search for a movie by title. 
     <br />
-    <a href="https://github.com/Priceless001/HNG-stage2-Task/tree/master"><strong>Explore the docs »</strong></a>
+    <a href=":/https/github.com/Priceless001/HNG-stage2-Task/tree/master"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·

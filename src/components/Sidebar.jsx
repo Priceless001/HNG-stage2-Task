@@ -6,7 +6,6 @@ import image10 from "../images/movie loggo.png";
 import image11 from "../images/TV Show.png";
 import image12 from "../images/Calendar.png";
 import image13 from "../images/Logout.png";
-import image14 from "../images/Rectangle 29.png";
 import Details from "./Details";
 import { useParams } from "react-router";
 import axios from "axios";
@@ -38,7 +37,6 @@ const Sidebar = (props) => {
 
   return (
     <div className="about-flex" style={{ display: "flex", gap: "3rem" }}>
-      {/* <div className="nav"> */}
       <div className="header-container">
         <div className="location">
           <img src={image8} alt="Movie" />
