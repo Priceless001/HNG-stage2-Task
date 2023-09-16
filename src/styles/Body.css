@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Dm Sans";
 }
 h2.title{
   font-size: 36px;
@@ -17,6 +18,13 @@ h2.title{
   gap: 80px;
   margin-top: 44px;
   margin-right: 20px;
+}
+.movie-title{
+  color: var(--gray-900, #111827);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .poster img{
     width: 250px;
