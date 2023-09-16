@@ -9,7 +9,7 @@ const Details = (props) => {
     <div>
       Details
       <div className="pages">
-        <div className="page-2-poster" data testid="movie-poster">
+        <div className="page-2-poster">
           <img
             src={`https://image.tmdb.org/t/p/w500/${props.data.poster_path}`}
             alt={props.data.title}
