@@ -61,10 +61,11 @@ const Body = () => {
           data-testid="movie-card"
           key={movie.id}
         >
-          <div className="poster" data testid="movie-poster">
+          <div className="poster">
             <img
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
               alt={movie.title}
+              data-testid="movie-poster"
             />
           </div>
           <div className="movie-title" data-testid="movie-title">
