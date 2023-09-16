@@ -22,3 +22,17 @@ h2.title{
     width: 250px;
     height: 250px;
 }
+button.fav {
+  width: 170px;
+  height: 50px;
+  padding: 5px 5px;
+  background-color: #be123c;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+button.fav:hover {
+  background-color: transparent;
+  border: 1px solid #be123c;
+  color: #be123c;
+  border-radius: 20px;
+}

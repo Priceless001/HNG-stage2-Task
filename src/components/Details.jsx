@@ -25,13 +25,12 @@ const Details = (props) => {
           <div
             className="runtime"
             data-testid="movie-runtime"
-          >{`${props.data.runtime} mins`}</div>
+          >{`${props.data.runtime} minutes`}</div>
         </div>
         <div className="review" data-testid="movie-overview">
           {" "}
           {props.data.overview}
         </div>
-        <button className="fav">Add to favourite</button>
       </div>
     </div>
   );

@@ -40,13 +40,11 @@ const Body = () => {
             alt={movie.title}
           />
         </div>
-        {/* <div data-testid="">{movie.id}</div> */}
         <div className="movie-title" data-testid="movie-title"> {movie.title}</div>
-        {/* <div>Genre {genre_ids}</div> */}
-        {/* <div className="movie-release-date" data-testid:""></div> */}
         <div className="date" data-testid="movie-release-date">{movie.release_date}</div>
-        {/* <div> overview {movie.overview}</div> */}
-          {/* {movie.popularity} */} 
+         <div className="genre"> {movie.genre_ids}</div> 
+         <div className="rating">{movie.vote_average}</div>
+         <button className="fav">Add to Favourite</button>
       </NavLink>
       </div>
       // </div>
