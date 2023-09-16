@@ -75,7 +75,7 @@ const Body = () => {
             {movie.release_date}
           </div>
           <div className="genre"> {genreNames}</div>
-          <div className="rating">{`${movie.vote_average*10}/100`}</div>
+          <div className="rating">{`${(movie.vote_average*10).toFixed(1)}/100`}</div>
           <button className="fav">Add to Favourite</button>
         </NavLink>
       </div>
