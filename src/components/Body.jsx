@@ -55,10 +55,9 @@ const Body = () => {
       .map((genreID) => genreMap[genreID])
       .join(", ");
     return (
-      <div className="cards">
+      <div className="cards" data-testid="movie-card">
         <NavLink
           to={`/movies/${movie.id}`}
-          data-testid="movie-card"
           key={movie.id}
         >
           <div className="poster">
@@ -69,7 +68,6 @@ const Body = () => {
             />
           </div>
           <div className="movie-title" data-testid="movie-title">
-            {" "}
             {movie.title}
           </div>
           <div className="date" data-testid="movie-release-date">
