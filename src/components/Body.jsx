@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 <h2 className="title">Featured movie</h2>;
 const Body = () => {
   const key =
-    "https://api.themoviedb.org/3/movie/popular?api_key=6758311a6817aa5bb17dd3da21ba9fa4";
+    "https://api.themoviedb.org/3/movie/top_rated?api_key=6758311a6817aa5bb17dd3da21ba9fa4";
   const [movies, setMovies] = useState([]);
 
   const getApi = async () => {
