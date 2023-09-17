@@ -191,9 +191,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/arc_hestia00) - starafolab@gmail.com
+Your Name - ayenpre@gmail.com
 
-Project Link: [https://github.com/Hestia-Arc/movie_discovery_app_hngx](https://github.com/Hestia-Arc/movie_discovery_app_hngx)
+Project Link: [https://github.com/Priceless001/HNG-stage2-Task](https://github.com/Priceless001/HNG-stage2-Task)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
